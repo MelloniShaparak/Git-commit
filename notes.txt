@@ -38,4 +38,33 @@ git checkout switch to branch
 git merge branchname : merge with active branch
 git branch -d branchname :deete branch
 
-Get in the cloud:
+
+Git in the Clouds:
+
+origin is where repository original place there 
+master stands for the main branch
+
+git clone repo : copy the repot to your local drive which would be master the  first version of coppied source will be origin
+
+git push origin master :After make change to codes you can push them to repo
+
+git pull origin master: commit from origin to master 
+
+Remotes:
+
+git remote add origin repo :add repo as origin 
+git push origin master
+
+Fork :Forking someone project to your account . you can edit it and merge it to main project
+
+
+Conflict : conflict between two changes by two people
+
+Tags:new version is master branch . 
+how we can back to previous version
+
+git tags:show all tags
+
+git tag -a tagname -m 'messages'
+
+Git Remote
