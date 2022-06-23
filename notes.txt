@@ -1,0 +1,41 @@
+First you should make a git space which can be :
+untrack :Git do nothing with this file and doesn't track
+stage :the space before commit and after untracked
+commit :File which existed in Stage can commit (add to Project)
+
+Git WorkSpaces:
+
+git init : makes git space which allows you to continue making changes to the wroking dir
+It allows you to record changes in small commits.
+
+git add <filename or directory>
+git commit -m "message" (m is for message)
+
+Report Commands:
+git status :show situation of files in folder ( untracked , modified  or ready to commit)
+git log :show all the changes 
+git show Hash : show detail of commite with hash of Hash
+
+File Modification:
+git diff <fileName> :seeing the changes on file before add to stage space
+git reset <filename>:exit file from stage mode
+git checkout -- <fileName> :discared change to file where added to stage space and revert changes
+git mv oldfilename newfilename : rename the file
+git rm filename :remove the file from git and system
+
+Branches:
+
+A branch is a version of the repository that diverges from the main working project. It is a feature available in most modern version control systems. A Git project can have more than one branch. These branches are a pointer to a snapshot of your changes. When you want to add a new feature or fix a bug, you spawn a new branch to summarize your changes. So, it is complex to merge the unstable code with the main code base and also facilitates you to clean up your future history before merging with the main branch.A branch is a version of the repository that diverges from the main working project. It is a feature available in most modern version control systems. A Git project can have more than one branch. These branches are a pointer to a snapshot of your changes. When you want to add a new feature or fix a bug, you spawn a new branch to summarize your changes. So, it is complex to merge the unstable code with the main code base and also facilitates you to clean up your future history before merging with the main branch.
+
+Master Branch :
+Master branch is the branch in which all the changes eventually get merged back. 
+It can be called as an official working version of your project
+
+Branch Commands:
+git branch: Show us Branches
+git branch <branchname> make branchName
+git checkout switch to branch
+git merge branchname : merge with active branch
+git branch -d branchname :deete branch
+
+Get in the cloud:
